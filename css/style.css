@@ -3,8 +3,6 @@
 }
 
 
-
-
 nav {
   min-height: 5px;
   display: flex;
@@ -32,7 +30,6 @@ nav {
 
 #links {
   text-align: end;
-  font-weight: 500px;
   color: #0065fc;
   
 }
@@ -82,12 +79,11 @@ nav {
 
 #search_bar i{
   border: 1px solid #deebff;
-  padding: 6px;
+  padding: 13px;
   padding-top: 10px;
   background-color: lightgray;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 25px;
   text-align: center;
   
   
@@ -114,8 +110,9 @@ nav {
   font-weight: bold;
 }
 
-#search h5{
+#search p {
   font-weight: 500;
+  font-size: 14px;
   margin-top: -10px;
 }
 
@@ -154,11 +151,11 @@ nav {
 #filters i{
   background-color: #deebff;
   color: #0065fc;
-  height: 25px;
   width: 30px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 7px;
+  padding: 4px;
+
 
 }
 
@@ -172,11 +169,11 @@ nav {
 
 #filters a{
   text-decoration: none;
-  margin: auto;
-  padding-left: 5px;
+  margin: -10px;
+  padding: 15px;
   color: black;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 15px;
 }
 
 /* INFO ICON */
@@ -243,7 +240,7 @@ nav {
   min-width: 1px;
   min-height: 5px;
   padding: 0px 20px 0px 23px;
-  border: 20%;
+  /*border: 20%;*/
   margin-top: -32px;
 }
 
@@ -383,7 +380,7 @@ nav {
 
 .mostpop_title{
   height: 1px;
-  padding: auto;
+  /*padding: auto;*/
 
 }
 
@@ -555,7 +552,7 @@ footer {
   min-height: 150px;
   text-align: center;
   background-color: #f2f2f2;
-  border-end-end-radius: 1px;
+ /* border-end-end-radius: 1px;*/
 }
 
 footer ul{
@@ -565,7 +562,7 @@ footer ul{
 footer ul li{
   margin: 10px;
   margin-left: -50px;
-  color: none;
+ /* color: none;*/
 }
 
 footer a {
@@ -766,7 +763,7 @@ footer a {
 
   #info{
     display: flex;
-    align-items: top;
+    /*align-items: top;*/
     padding: 15px;
   }
   
@@ -785,7 +782,7 @@ footer a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: top;
+    /*align-items: top;*/
     margin-top: -2px;
     padding-left: 5px;
     position: relative;
@@ -861,7 +858,7 @@ footer a {
   #chart {
     margin-left: 265px;
     display: inline-flex;
-    line-height: -900px ;
+    /*line-height: -900px ;*/
     
   }
   
@@ -882,10 +879,11 @@ footer a {
 
   #activities_list {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    
     margin-top: -20px;
     width: 95%
-   
+    
   }
 
   .act_image_1, .act_image_4{
